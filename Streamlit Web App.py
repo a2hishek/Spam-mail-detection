@@ -6,9 +6,8 @@ import streamlit as st
 
 #Loading Model And Feature Extractor
 
-Spam_Filter = pickle.load(open(r'C:\Users\Abhishek Rathore\Desktop\ML Project\Spam_Filtration.sav', 'rb'))
-Ft_Extract = pickle.load(open(r'C:\Users\Abhishek Rathore\Desktop\ML Project\FtExtractor.sav', 'rb'))
-
+Spam_Filter = pickle.load(open('Spam_Filtration.sav', 'rb'))
+Ft_Extract = pickle.load(open('FtExtractor.sav', 'rb'))
 #Creating a Function for Prediction
 
 def Spam_Filtration(input_mail):
