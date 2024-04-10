@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-
+import sklearn
 #Loading Model And Feature Extractor
 
 Spam_Filter = pickle.load(open('Spam_Filtration.sav', 'rb'))
